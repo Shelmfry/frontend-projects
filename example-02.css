@@ -11,6 +11,7 @@ div {
 .container {
 	width: 1024px;
 	margin: 0 auto;
+  padding:0px;
 }
 
 .header {
@@ -21,14 +22,14 @@ div {
 	float: left;
 	width: 250px;
 background-color: #f5bc69;
-  height: 200px;
+  height: 300px;
 }
 
 .main-content {
 	float: left;
   background-color: #8fabbf;
-  height:200px;
-  width: 734px;
+  height:300px;
+  width: 774px;
 	/* hint! */
 }
 
