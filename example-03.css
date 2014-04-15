@@ -8,20 +8,34 @@
 .container {
 	width: 1024px;
 	margin: 0 auto;
+	padding: 0px;
+	font-family: Arial; 
 }
 
 
-.header {}
+.header {
+	  background-color:#f0a068;
+}
 
 .sidebar {
+	background-color: #f5bc69;
+	float:right;
+	width: 250px;
+	height: 300px;
 	/* hint! */
 }
 
 .main-content {
+	 background-color: #8fabbf;
+	 float:left;
+	 width: 774px; 
+	 height: 300px;
 	/* hint! */
 }
 
 .footer {
+	background-color:#b7cc4b;
+	clear:both;
 	/* hint! */
 }
 
