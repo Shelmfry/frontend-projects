@@ -8,24 +8,65 @@
 .container {
 	width: 1024px;
 	margin: 0 auto;
+  	padding:0px;
+  	font-family: Arial;
 }
 
-.header {}
+.header {
+	background-color:#f0a068;
+}
 /* hint! what do you have to add here? */
+.header:after {
+  content: " ";
+  display:block;
+  clear: both;
+  visibility:hidden;
+  height: 0;
+}
 
-.logo {}
+.logo {
+	background-color: #e96682; 
+	float:left;
+}
 
-.navigation {}
+.navigation {
+	background-color: #d56a54;
+	float:right;
+}
 
-.sidebar {}
+.sidebar {
+	float: left;
+	width: 250px;
+	background-color: #f5bc69;
+	height: 300px;
+	margin-right:45px;
+}
 
-.main-content {}
+.main-content {
+	background-color: #8fabbf; 
+}
+.main-content:after {
+  content: " ";
+  display:block;
+  clear: both;
+  visibility:hidden;
+  height: 0;
+}
 /* hint! you have to contain the floated children elements. */
 
 .sub-content {
+	background-color: #517087;
+	width: 670px;
+	float:left;
+	height:100px;
+	margin-bottom: 45px;
 	/* hint! */
 }
 .sub-content-2 {
+	background-color: #3b5161; 
+	width: 670px;
+	float:left;
+	height:100px;
 	/* hint! */
 }
 
