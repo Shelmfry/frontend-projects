@@ -8,16 +8,34 @@
 .container {
 	width: 1024px;
 	margin: 0 auto;
+	padding: 0px;
 }
 
-.header {}
+.header {
+	background-color:#f0a068;
+}
 
 
-.sidebar {}
+.sidebar {
+	float: left;
+	width: 250px;
+	background-color: #f5bc69;
+  	height: 300px;
+}
 
-.main-content {}
+.main-content {
+	float: left;
+  	background-color: #8fabbf;
+  	height:300px;
+  	width: 450px; 
+}
 
-.sub-content {}
+.sub-content {
+	height: 300px;
+}
 
 
-.footer {}
+.footer {
+	background-color:#b7cc4b;
+  	clear:both
+}
