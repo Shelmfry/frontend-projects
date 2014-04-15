@@ -6,23 +6,66 @@
 /* Example 07 */
 
 .container {
-	width: 1024px; /* change me to a percentage width, like 80% */
+	width: 100%; /* change me to a percentage width, like 80% */
 	margin: 0 auto;
+	padding: 0px;
 }
 
 
-.header {}
+.header {
+	background-color:#f0a068;
+}
+.header:after {
+  content: " ";
+  display:block;
+  clear: both;
+  visibility:hidden;
+  height: 0;
+}
+.logo {
+	background-color: #e96682; 	
+	float:left;
+	width: 30%;
+}
 
-.logo {}
+.navigation {
+	background-color: #d56a54;
+	float:right;
+	width:60%;
+}
 
-.navigation {}
+.sidebar {
+	float: left;
+	width: 30%;
+	background-color: #f5bc69;
+	margin-right:1em;
+}
 
-.sidebar {}
+.main-content {
+	background-color: #8fabbf; 
+}
+.main-content:after {
+  content: " ";
+  display:block;
+  clear: both;
+  visibility:hidden;
+  height: 0;
+}
 
-.main-content {}
+.sub-content {
+	background-color: #517087;
+	width: 60%;
+	float:right;
+}
 
-.sub-content {}
+.sub-content-2 {
+	background-color: #3b5161; 
+	width: 60%;
+	float:right;
 
-.sub-content-2 {}
+}
 
-.footer {}
+.footer {
+	background-color:#b7cc4b;
+  	clear:both;
+}
