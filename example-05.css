@@ -70,4 +70,7 @@
 	/* hint! */
 }
 
-.footer {}
+.footer {
+	background-color:#b7cc4b;
+  	clear:both;
+}
