@@ -4,24 +4,36 @@
 /* ---------------------------------------------------------- */
 
 /* Example 02 */
-
+div {
+  padding:10px;
+  font-family: Arial;
+}
 .container {
 	width: 1024px;
 	margin: 0 auto;
 }
 
-.header {}
+.header {
+  background-color:#f0a068;
+}
 
 .sidebar {
 	float: left;
 	width: 250px;
+background-color: #f5bc69;
+  height: 200px;
 }
 
 .main-content {
 	float: left;
+  background-color: #8fabbf;
+  height:200px;
+  width: 734px;
 	/* hint! */
 }
 
 .footer {
+  background-color:#b7cc4b;
+  clear:both;
 	/* hint! */
 }
