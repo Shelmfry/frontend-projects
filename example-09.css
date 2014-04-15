@@ -5,14 +5,42 @@
 
 /* Example 09 */
 
-.header {}
+.container {
+	width: 1024px;
+	margin: 0 auto;
+	/*padding: 0px;*/
+}
 
-.sidebar {}
+.header {
+	background-color:#f0a068;
+	width: 100%; 
+	clear: all;
+}
 
-.main-content {}
 
-.sub-content {}
+.sidebar {
+	float: left;
+	width: 250px;
+	background-color: #f5bc69;
+  	height: 300px;
+}
 
-.footer {}
+.main-content {
+	float: left;
+  	background-color: #8fabbf;
+  	height:300px;
+  	width: 450px; 
+}
+
+.sub-content {
+	height: 300px;
+}
+
+
+.footer {
+	background-color:#b7cc4b;
+  	clear:both
+}
+
 
 /* what do you have to add to make the sidebar and content and footer not be the full width of the browser? */
