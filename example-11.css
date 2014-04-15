@@ -5,14 +5,63 @@
 
 /* Example 11 */
 
-.header {}
+.header {
+	background-color:#f0a068;
+}
+.header:after {
+  content: " ";
+  display:block;
+  clear: both;
+  visibility:hidden;
+  height: 0;
+}
 
-.main-content {}
+.logo {
+	background-color: #e96682; 
+	float:left;
+}
+
+.navigation {
+	background-color: #d56a54;
+	float:right;
+}
+
+.main-content {
+	background-color: #8fabbf; 
+}
+.main-content:after {
+  content: " ";
+  display:block;
+  clear: both;
+  visibility:hidden;
+  height: 0;
+}
 /* hint! */
 
-.post {}
+.post {
+	/*background-color: #788630;*/
+}
+.post:after {
+	content: " ";
+  display:block;
+  clear: both;
+  visibility:hidden;
+  height: 0;
+}
 /* hint! */
 
-.image {}
+.image {
+	background-color: #98aa3e;
+	width: 170px;
+	height: 170px;
+	float: left; 
+	margin-right: 4em;
+}
 
-.post_excerpt {}
+.post_excerpt {
+	color: white;
+	font-family: Arial;
+	float: left;
+	width:75%;
+}
+
