@@ -75,10 +75,18 @@ var calculateAge = function(year1, year2) {
 /**
  * Exercise 3: calculateSupply
  **/
-
+//@peram
+//x: the age of the person 
+//y: the amount of tea that person consumes per day 
+// @return the amount of tea a person would drink from their current age to 100 years 
 // Create function with name calculateSupply and appropriate parameters
-var calculateSupply = function(x, y) {
-    var ageMax = 100
+var calculateSupply = function(a, t) {
+   	var AGE_MAX = 100
+    var dailyTea = t
+    var remainingAge = AGE_MAX-a
+    var totalTea = (remainingAge*365)* dailyTea 
+
+    return "You will need "+totalTea+ " cups of tea to last you until the ripe old age of 100" 
 
 };
 
@@ -90,9 +98,9 @@ var calculateSupply = function(x, y) {
 
 // Return Message
 
-// console.log(calculateSupply(28, 36)); // You will need 946080 cups of tea to last you until the ripe old age of 100
-// console.log(calculateSupply(28, 2.5)); // You will need 65700 cups of tea to last you until the ripe old age of 100
-// console.log(calculateSupply(28, 400));  // You will need 10512000 cups of tea to last you until the ripe old age of 100 
+//console.log(calculateSupply(28, 36)); // You will need 946080 cups of tea to last you until the ripe old age of 100
+ //console.log(calculateSupply(28, 2.5)); // You will need 65700 cups of tea to last you until the ripe old age of 100
+//console.log(calculateSupply(28, 400));  // You will need 10512000 cups of tea to last you until the ripe old age of 100 
 
 
 
@@ -211,6 +219,6 @@ var waterState = function(number, inputType) {
 // Write a conditional if then statement that saves 'boiling', 'liquid', or 'freezing' depending on what the temperature is.
 
 // return string "It's currently XXX degrees in the XXX standard and water is in a XXX state.'
-console.log(waterState(50, 'C')); // "It's currently 50 degrees in the Celsius standard and water is liquid. "
-console.log(waterState(213, 'F')); // "It's currently 213 degrees in the Fahrenheit standard and water is boiling. "
- console.log(waterState(-1, 'F')); // "It's currently -1 degrees in the Fahrenheit standard and water is liquid. "
+//console.log(waterState(50, 'C')); // "It's currently 50 degrees in the Celsius standard and water is liquid. "
+//console.log(waterState(213, 'F')); // "It's currently 213 degrees in the Fahrenheit standard and water is boiling. "
+ //console.log(waterState(-1, 'F')); // "It's currently -1 degrees in the Fahrenheit standard and water is liquid. "
