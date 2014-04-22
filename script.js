@@ -156,6 +156,9 @@ var convertTemp = function(number, inputType) {
     }
 };
 
+//global variables: go outside of the function and allows you to make multiple functions using the same variable names! 
+// ALL CAPS = global variable 
+//when you define functions, put them at the top 
 
 // Give it 2 parameters, the first being number, second being inputType. inputType should accept strings 'F' or 'C'
 
@@ -211,6 +214,8 @@ var waterState = function(number, inputType) {
     }
 
 };
+
+// could have defined all celicius and all farenheit temps and then returned it in if/else (if else if, else if) statement (one statement)
 
 // Write a conditional and save proper water state variables based on if the inputType parameter is 'C' or 'F'.
 
