@@ -30,7 +30,7 @@ h1 {
     font-family:'Marcellus SC', serif;
 }
 /*navigation*/
- .nav {
+ nav {
     margin-right: auto;
     margin-left:auto;
     width: 30%;
@@ -38,30 +38,30 @@ h1 {
     background-color: black;
     border-radius: 5px;
     position: relative;
+    z-index: 2;
 }
-.nav ul {
+nav ul {
     list-style-type: none;
     padding: 0px;
 }
-.nav li {
+nav li {
     margin: 1em;
     text-align: center;
 }
-.nav ul li a {
+nav ul li a {
     text-decoration: none;
     color: white;
     font-size: 2em;
     font-family:'Economica', sans-serif;
     width: 100%;
 }
-.nav li a:hover {
+nav li a:hover {
     color: black;
     background-color: #fff;
 }
-span#emergency-nav {
-    color: red;
-    display:block;
-   
+
+nav .nav-emergency:hover {
+    color:red;
 }
 /*end navigation*/
 
@@ -71,7 +71,7 @@ span#emergency-nav {
     border-top-style: dashed;
     border-top-color: black;
 }
-h1.content-header {
+.content-header {
     -webkit-transform: rotate(-90deg);
     font-size: 5em;
     margin-top:3.5em;
