@@ -60,7 +60,7 @@ nav li a:hover {
     background-color: #fff;
 }
 
-nav .nav-emergency:hover {
+.nav-emergency a:hover {
     color:red;
 }
 /*end navigation*/
